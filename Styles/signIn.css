@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+span{
+    color: white;
+    display: block;
+    margin-top: 30px;
+}
+#container{
+    width: 25%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #171f30;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+input{
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #1f80e0;
+    background-color: #171f30;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #1f80e0;
+    width: 75%;
+    /* width: 200px; */
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}

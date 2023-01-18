@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#carousel{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#carousel img{
+    width: 100%;
+    height: 500px;
+}
+#load{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+#movies{
+    display: grid;
+    margin: 2%;
+    margin-top: 35px;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+
+}
+#movies>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#movies>div:hover{
+    cursor: pointer;
+    width: 300px;
+}
+#movies>div h3,#movies>div h4{
+    margin: 5px;
+    text-align: center;
+}
+#movies>div h5{
+    margin-top: 0px;
+}
+#movies>div p{
+    margin-top: -10px;
+}
+#movies>div img{
+    /* width: 250px;
+    height: 300px; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+#sortBtn>button{
+    font-size: 16px;
+    color: white;
+    margin: 0px 1%;
+    background-color: #0c101b;
+    border: none;
+}
+#sortBtn>button:hover{
+    cursor: pointer;
+    color: blue;
+}

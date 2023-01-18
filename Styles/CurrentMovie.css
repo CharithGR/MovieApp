@@ -1,0 +1,28 @@
+#container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;    
+}
+#container>div{
+    margin-right: 50px;
+}
+#container>div h5,#container>div p,#container>div h3{
+text-transform: uppercase;
+}
+#container>div h3{
+    font-size: 50px;
+    margin-top: 0px;
+}
+#container>div h5{
+    font-size: 30px;
+}
+#container>div p{
+    font-size: 25px;
+}
+#container>div>div{
+    font-size: 20px;
+}
+#container>div>div:hover{
+    cursor: pointer;
+}
